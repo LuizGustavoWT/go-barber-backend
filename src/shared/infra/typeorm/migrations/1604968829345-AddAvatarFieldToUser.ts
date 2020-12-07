@@ -1,5 +1,5 @@
 import { MigrationInterface, QueryRunner, TableColumn } from 'typeorm';
-import usersRouter from '../../routes/users.routes';
+import usersRouter from '../../http/routes/users.routes';
 
 export default class AddAvatarFieldToUser1604968829345
   implements MigrationInterface {
