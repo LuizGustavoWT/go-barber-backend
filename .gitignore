@@ -1,5 +1,10 @@
 node_modules
 dist
 tmp/uploads/*
+tmp/*
+!tmp/.gitkeep
 !tmp/uploads/.gitkeep
 coverage
+.env
+ormconfig.json
+.ormconfig.json
