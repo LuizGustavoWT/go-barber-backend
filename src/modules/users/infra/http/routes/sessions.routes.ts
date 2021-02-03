@@ -16,4 +16,6 @@ sessionsRouter.post(
   sessionsController.create,
 );
 
+sessionsRouter.get('/me', sessionsController.show);
+
 export default sessionsRouter;
